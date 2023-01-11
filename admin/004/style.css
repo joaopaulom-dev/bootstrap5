@@ -1,0 +1,14 @@
+/* Pega classes para reutilizar */
+@import url('../border_classes.css');
+
+.bg-success{
+    background-color: #1bbf1b !important;
+}
+
+.bg-danger{
+    background-color: #e81111 !important;
+}
+
+.bg-warning{
+    background-color: #f1f112 !important;
+}

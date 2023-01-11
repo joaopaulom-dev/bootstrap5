@@ -6,6 +6,8 @@
 <ul>
     <li><a href="index.php?p=001">001</a>
     <li><a href="index.php?p=002">002</a>
+    <li><a href="index.php?p=003">003</a>
+    <li><a href="index.php?p=004">004</a>
 </ul>
 <hr>
 
