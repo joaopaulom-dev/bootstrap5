@@ -1,9 +1,9 @@
 <div class="container">
     <h4>Aplicando espaçamento entre colunas</h4>
     <p>
-        Para aplicar margin utiliza-se a classe m.
+        Para aplicar margin utiliza-se a classe m, para aplicar padding utiliza-se a classe p.
         <br>
-        Para aplicar padding utiliza-se a classe p.
+        O spacing pode ser aplicado com as classes t(top), b(bottom), s(start), e(end), x(horizontal) e y(vertical).
         <br>
         O valor de margin e padding varia de 0 - 5.
     </p>
