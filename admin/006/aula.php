@@ -80,4 +80,100 @@
             </div>
         </div>
     </div>
+
+    <br>
+
+    <p>
+        <strong>Carroulsel</strong>
+        <br>
+        A classe active define o slide mostrado por padrão.
+        <br>
+        A propriedade data-bs-ride habilita o auto slide do carroulsel.
+    </p>
+    <div class="row">
+        <div class="col">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="bg-danger p-2 text-center h-200">
+                            <span class="text-white">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum explicabo velit nihil, commodi illo blanditiis soluta quas vel repudiandae itaque corporis perferendis facere neque qui totam laboriosam reiciendis, quod sapiente?
+                                Velit cumque itaque similique hic ad modi sed, aliquid laboriosam, laudantium esse nisi assumenda eveniet ut possimus enim beatae at voluptas nam nostrum expedita? Voluptas quaerat quod nihil suscipit? Voluptatibus!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bg-warning p-2 text-center h-200">
+                            <span class="text-white">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum explicabo velit nihil, commodi illo blanditiis soluta quas vel repudiandae itaque corporis perferendis facere neque qui totam laboriosam reiciendis, quod sapiente?
+                                Velit cumque itaque similique hic ad modi sed, aliquid laboriosam, laudantium esse nisi assumenda eveniet ut possimus enim beatae at voluptas nam nostrum expedita? Voluptas quaerat quod nihil suscipit? Voluptatibus!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bg-success p-2 text-center h-200">
+                            <span class="text-white">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum explicabo velit nihil, commodi illo blanditiis soluta quas vel repudiandae itaque corporis perferendis facere neque qui totam laboriosam reiciendis, quod sapiente?
+                                Velit cumque itaque similique hic ad modi sed, aliquid laboriosam, laudantium esse nisi assumenda eveniet ut possimus enim beatae at voluptas nam nostrum expedita? Voluptas quaerat quod nihil suscipit? Voluptatibus!
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> 
+                -->
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <p>
+        <strong>Collapse</strong>
+    </p>
+    <div class="row">
+        <div class="col text-center">
+            <div class="collapse mb-3" id="collapse1">
+                <div class="card card-body text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eos eius voluptatibus magni, accusantium laudantium esse. Numquam rem, quaerat sapiente porro doloribus ullam nam consectetur, totam, quam delectus explicabo aspernatur?
+                </div>
+            </div>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Abrir collapse1</button>
+            </p>
+        </div>
+        <div class="col text-center">
+            <div class="collapse mb-3" id="collapse2">
+                <div class="card card-body text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eos eius voluptatibus magni, accusantium laudantium esse. Numquam rem, quaerat sapiente porro doloribus ullam nam consectetur, totam, quam delectus explicabo aspernatur?
+                </div>
+            </div>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Abrir collapse2</button>
+            </p>
+        </div>
+        <div class="col text-center">
+            <div class="collapse mb-3" id="collapse3">
+                <div class="card card-body text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eos eius voluptatibus magni, accusantium laudantium esse. Numquam rem, quaerat sapiente porro doloribus ullam nam consectetur, totam, quam delectus explicabo aspernatur?
+                </div>
+            </div>
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">Abrir collapse3</button>
+            </p>
+        </div>
+    </div>
 </div>

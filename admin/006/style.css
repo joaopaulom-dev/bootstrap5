@@ -1,2 +1,6 @@
 /* Pega classes para reutilizar */
 @import url('../border_classes.css');
+
+.h-200{
+    min-height: 200px !important;
+}
