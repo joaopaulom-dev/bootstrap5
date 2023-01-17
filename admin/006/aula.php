@@ -176,4 +176,324 @@
             </p>
         </div>
     </div>
+
+    <br>
+
+    <p>
+        <strong>Dropdown Buttons</strong>
+    </p>
+    <div class="row gx-3">
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dropdown item 1</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown item 2</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown item 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Definindo dividers</button>
+                <ul class="dropdown-menu">
+                    <li><span class="text-muted dropdown-item">Logon Soluções</span></li>
+                    <li><a class="dropdown-item" href="#">Painel</a></li>
+                    <li><a class="dropdown-item" href="#">Supervisor</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li><span class="text-muted dropdown-item">SEEO</span></li>
+                    <li><a class="dropdown-item" href="#">Painel</a></li>
+                    <li><a class="dropdown-item" href="#">Supervisor</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li><span class="text-muted dropdown-item">Objetiva Distribuidora</span></li>
+                    <li><a class="dropdown-item" href="#">Painel</a></li>
+                    <li><a class="dropdown-item" href="#">Supervisor</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="dropdown" data-bs-theme="dark">
+                <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Definindo tema dark</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Alterar</a></li>
+                    <li><a class="dropdown-item" href="#">Apagar</a></li>
+                    <li><a class="dropdown-item" href="#">Detalhes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Definindo link ativo</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" aria-current="page">Atual</a></li>
+                    <li><a class="dropdown-item active" href="#" aria-current="true">Ativo</a></li>
+                    <li><a class="dropdown-item" href="#">Outro</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Modal 01 -->
+    <div class="modal" tabindex="-1" id="modal-01">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alterar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                    <div class="modal-body p-3">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Senha</label>
+                                <input type="text" class="form-control" placeholder="Digite sua senha">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 02 -->
+    <div class="modal fade" tabindex="-1" id="modal-02">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alterar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                    <div class="modal-body p-3">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Senha</label>
+                                <input type="text" class="form-control" placeholder="Digite sua senha">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 03 -->
+    <div class="modal fade" tabindex="-1" id="modal-03">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alterar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                    <div class="modal-body p-3">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Senha</label>
+                                <input type="text" class="form-control" placeholder="Digite sua senha">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 04 -->
+    <div class="modal fade" tabindex="-1" id="modal-04">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alterar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                    <div class="modal-body p-3">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Senha</label>
+                                <input type="text" class="form-control" placeholder="Digite sua senha">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 05 -->
+    <div class="modal fade" tabindex="-1" id="modal-05">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alterar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form>
+                    <div class="modal-body p-3">
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" style="text-align: left;">Senha</label>
+                                <input type="text" class="form-control" placeholder="Digite sua senha">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <strong>Modals</strong>
+    </p>
+    <div class="row">
+        <div class="col">
+            <button type="button" onclick="abrirModal('modal-01')" class="btn btn-primary">Bootstrap modal</button>
+        </div>
+        <div class="col">
+            <button type="button" onclick="abrirModal('modal-02')" class="btn btn-danger">Modal com fade</button>
+        </div>
+        <div class="col">
+            <button type="button" onclick="abrirModal('modal-03')" class="btn btn-warning">Modal large</button>
+        </div>
+        <div class="col">
+            <button type="button" onclick="abrirModal('modal-04')" class="btn btn-success">Modal small</button>
+        </div>
+        <div class="col">
+            <button type="button" onclick="abrirModal('modal-05')" class="btn btn-info">Modal centered</button>
+        </div>
+    </div>
+    <script>
+        // -------------------------- Pega id para abrir modal -------------------------- //
+
+        function abrirModal(id) {
+            //Pega modal na pagina
+            let modal = document.getElementById(id);
+
+            //Transforma em objeto bootstrap
+            let bs_modal = new bootstrap.Modal(modal);
+
+            //Apresenta modal
+            bs_modal.show();
+        }
+    </script>
+
+    <br>
+
+    <p>
+        <strong>Navs e Tabs</strong>
+    </p>
+    <div class="row gx-5">
+        <div class="col">
+            <nav class="nav nav-fill">
+                <a href="#" class="nav-link active" aria-current="true">Ativo</a>
+                <a href="#" class="nav-link" aria-current="page">Atual</a>
+                <a href="#" class="nav-link">Link 03</a>
+                <a href="#" class="nav-link">Link 04</a>
+            </nav>
+        </div>
+        <div class="col">
+            <nav class="nav nav-tabs nav-fill">
+                <a href="#" class="nav-link active" aria-current="true">Ativo</a>
+                <a href="#" class="nav-link" aria-current="page">Atual</a>
+                <a href="#" class="nav-link">Link 03</a>
+                <a href="#" class="nav-link">Link 04</a>
+            </nav>
+        </div>
+        <div class="col">
+            <nav class="nav nav-pills nav-fill">
+                <a href="#" class="nav-link active" aria-current="true">Ativo</a>
+                <a href="#" class="nav-link" aria-current="page">Atual</a>
+                <a href="#" class="nav-link">Link 03</a>
+                <a href="#" class="nav-link">Link 04</a>
+            </nav>
+        </div>
+    </div>
+
+    <br>
+
+    <p>
+        <strong>Navbar</strong>
+    </p>
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <!-- Navbar brand image -->
+                        <img src="006/bootstrap-icon.png" alt="Bootstrap framework icon" class="d-inline-block align-text-center" height="50" width="50">
+
+                        <!-- Navbar brand text -->
+                        <h4 class="d-inline-block">Bootstrap</h4>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navbar-nav me-auto">
+                            <a href="#" class="nav-link active" aria-current="true">Ativo</a>
+                            <a href="#" class="nav-link" aria-current="page">Atual</a>
+                            <a href="#" class="nav-link">Link 03</a>
+                            <a href="#" class="nav-link">Link 04</a>
+                        </div>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Procurando algo?" aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Procurar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
 </div>
