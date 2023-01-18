@@ -464,23 +464,23 @@
     <br>
 
     <p>
-        <strong>Navbar</strong>
+        <strong>Navbar e offcanvas</strong>
     </p>
     <div class="row">
         <div class="col">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
+                        <!-- Offcanvas show/ hide -->
+                        <button class="btn btn-sm btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-1" aria-controls="offcanvas-1">Show</button>
+
                         <!-- Navbar brand image -->
                         <img src="006/bootstrap-icon.png" alt="Bootstrap framework icon" class="d-inline-block align-text-center" height="50" width="50">
 
                         <!-- Navbar brand text -->
                         <h4 class="d-inline-block">Bootstrap</h4>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse">
                         <div class="navbar-nav me-auto">
                             <a href="#" class="nav-link active" aria-current="true">Ativo</a>
                             <a href="#" class="nav-link" aria-current="page">Atual</a>
@@ -491,6 +491,29 @@
                             <input class="form-control me-2" type="search" placeholder="Procurando algo?" aria-label="Search">
                             <button class="btn btn-primary" type="submit">Procurar</button>
                         </form>
+                    </div>
+
+                    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvas-1" aria-labelledby="Bootstrap offcanvas">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvas-1Label">Bootstrap offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvas-1" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="d-block w-100">
+                                <nav class="nav flex-column">
+                                    <a href="#" class="nav-link mb-2 active" aria-current="true">Ativo</a>
+                                    <a href="#" class="nav-link mb-2" aria-current="page">Atual</a>
+                                    <a href="#" class="nav-link mb-2">Link 03</a>
+                                    <a href="#" class="nav-link mb-2">Link 04</a>
+                                </nav>
+                            </div>
+                            <div class="d-block w-100">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Procurando algo?" aria-label="Search">
+                                    <button class="btn btn-primary" type="submit">Procurar</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
